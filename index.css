@@ -1,4 +1,8 @@
+.container{
+    margin:auto;
+    width: 80%;
 
+}
     
 header{
     margin: 0em;
@@ -72,26 +76,34 @@ ul li.active a{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 50px 500px;
+    margin: 100px 200px 100px 400px;
     cursor: pointer;
      
  }
 
  img{
      float:left;
-     height: 500px;
-     width: 700px;
+     height:485px;
+     width: 500px;
+ }
+ .pic{
+     background-color: black;
+     background-size: auto;
+     background-attachment: fixed;
+     background-position: center;
  }
  .hotel{
      color: white;
-     font-size: 300%;
+     font-size: 200%;
      text-align: center;
-     padding: 50px;
+     padding: 30px;
  }
 .para1{
     color: wheat;
     font-size: 150%;
     text-align: center;
+    line-height: 1.5;
+    padding-left:5px ;
 }
 .read{
     background-color:white;
@@ -102,20 +114,17 @@ ul li.active a{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-top: -150px ;
-    margin-bottom: 300px;
-    margin-right: 150px;
-    margin-left: 950px;
+    margin: 80px 100px 117px 200px;
     cursor: pointer;
  
 
 }
 .table{
     float: left;
-    width:380px;
-    text-align: center;
-    height: 15rem;
-    padding: 25px 25px;
+    width:27%;
+
+    height: 20rem;
+    padding: 30px 30px;
   }
 
   .row{
@@ -126,7 +135,9 @@ ul li.active a{
 
   .table h1{
       color: black;
-      text-align: center;
+      text-decoration: none;
+      text-align-last: auto;
+      text-align:center;
   }
   
   
